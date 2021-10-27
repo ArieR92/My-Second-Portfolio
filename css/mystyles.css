@@ -1,0 +1,193 @@
+*{ box-sizing: border-box;}
+html {line-height: 1.15;}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align:;
+    background-color: #ffffff;
+}
+.datos h6, h3 { color:#3d3d3d;}
+
+
+/*--header--*/
+
+header {
+
+}
+
+buttom .btn {
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    
+}
+
+.about-img img {
+    width: 600px;
+    height: 600px;
+    
+}
+
+.aboutoutline-text {
+    font-family: "roboto", sans-serif;
+    font-size: 180px;
+    font-weight:bold;
+
+}
+
+
+
+}
+
+.foto {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.foto a {
+    display: inline-block;
+    
+   
+}
+
+.foto a img {
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+
+@media (min-width: 576px) {
+    .about-img img {
+    width: 200px;
+    height: 200px;
+} 
+
+
+}
+
+@media (min-width: 768px) {
+    .about-img img {
+    width: 600px;
+    height: 600px;
+    
+}
+} 
+
+/*--EDUACTION $ EXPERIENCE--*/
+
+.icon-circle {
+    color:#0d6efd;
+}
+
+/*--My services--*/
+
+.card {
+    border: 0;
+    
+}
+
+.card{
+    background-color:#f5f5f5 ;
+    
+}
+.card:hover {
+    background-color:white;
+}
+
+/*--Portfolio--*/
+
+.portfolio-item .portfolio-btn {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    opacity: 0;
+    transition: 0.2s;
+
+
+}
+.portfolio-item:hover .portfolio-btn {
+    opacity: 1;
+    width: calc(100% - 30%);
+    height: calc(100% - 30%);
+    top: 50px;
+    left: 60px;
+
+}
+
+/*--contact--*/
+
+.form-control {
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1);
+    border: 0;
+}
+
+.send {
+    padding: 10px 15px 10px 15px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #3d3d3d;
+    height: 250px;
+    width: 100%;
+ 
+}
+
+.footer i {
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 1px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.footer i:hover {
+    color: gray;
+    
+
+}
+
+
+
+
+
+
+
+/*--MEDIA QUERIES--*/
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
